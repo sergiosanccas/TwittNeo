@@ -91,9 +91,9 @@ ENV/
 .conf
 *.conf
 
-user_token.conf
+user_token_test.conf
 
-*.conf
+
 
 .idea/vcs.xml
 
@@ -102,3 +102,4 @@ user_token.conf
 .idea/TwittNeo.iml
 
 .idea/inspectionProfiles/profiles_settings.xml
+.idea/

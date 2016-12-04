@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-
+__author__ = 'Sergio Sanchez Castell '
+__version__ = 'v_2.0'
+__email__ = "sergio.tendi[at]gmail[dot]com"
+__status__ = "Production"
 
 import tweepy
 import ConfigParser
@@ -18,7 +21,7 @@ class Configuration():
         try:
             # Read  configuration file ("user_token.conf")
             config = ConfigParser.RawConfigParser()
-            config.read('user_token_fede.conf')
+            config.read('user_token_test.conf')
 
             CONSUMER_KEY = config.get('Twitter OAuth', 'CONSUMER_KEY')
             CONSUMER_SECRET = config.get('Twitter OAuth', 'CONSUMER_SECRET')
