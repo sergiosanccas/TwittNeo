@@ -87,3 +87,18 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+.conf
+*.conf
+
+user_token.conf
+
+*.conf
+
+.idea/vcs.xml
+
+user_token.conf
+
+.idea/TwittNeo.iml
+
+.idea/inspectionProfiles/profiles_settings.xml
